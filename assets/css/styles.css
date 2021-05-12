@@ -1,0 +1,45 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.indicador-activo li{
+    width: 14px;
+    height: 14px;
+    background-color: gray;
+    border-radius: 100%;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+/* media query para no mostrar el carrusel en dispositivos pequeños */
+@media (max-width: 992px){
+    .ocultar-carrusel{
+        display: none;
+    }
+}
+
+hr{
+    background-color: gray;
+    height: 1px;
+}
+
+.titulo{
+    color: gray;
+    font-size: 18px;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+
+.pasos li{
+    padding: 5px;
+
+}
+
+#suscribete{
+    height: 100px;
+}
+
+footer{
+    height: auto;
+}
