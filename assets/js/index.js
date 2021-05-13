@@ -21,4 +21,8 @@ $("#btnenviarCorreo").click(function() {
 $("h1").on("dblclick", function(){ 
   $(this).addClass("titulorojo");
 })
+
+$(".card-img-top").on("click", function() {
+  $(".card-body").toggle('slow');
+});
   

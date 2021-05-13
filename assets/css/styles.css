@@ -2,6 +2,12 @@ body{
     font-family: 'Cabin', sans-serif;
 }
 
+span{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 400;
+}
+
 h1{
     font-weight: 700;
     font-size: 2.0rem;
@@ -51,7 +57,11 @@ hr{
 }
 
 #suscribete{
-    height: 100px;
+    height: 40vh;
+}
+
+.boton-empezar{
+    padding-inline: 4vw;
 }
 
 footer{
