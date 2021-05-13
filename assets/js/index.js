@@ -22,7 +22,7 @@ $("h1").on("dblclick", function(){
   $(this).addClass("titulorojo");
 })
 
-$(".card-img-top").on("click", function() {
-  $(".card-body").toggle('slow');
+$(".card-title").on("click", function() {
+  $(".card-text").toggle('slow');
 });
   
